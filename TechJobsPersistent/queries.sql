@@ -6,5 +6,7 @@
 
 --Part 2
 
+--SELECT * from techjobs.employers WHERE Location = "St. Louis City";
+
 --Part 3
 
