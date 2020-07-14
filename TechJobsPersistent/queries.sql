@@ -10,3 +10,4 @@
 
 --Part 3
 
+--SELECT skill.name, skill.description from techjobs.jobskills WHERE JobId IS NOT NULL ORDER BY ASC;
