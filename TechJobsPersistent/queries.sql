@@ -1,4 +1,5 @@
 --Part 1
+
 --employers (Id (int), Name (longtext), Location (longtext))
 --jobs (Id (int), Name (longtext), EmployerId (int))
 --jobskills (JobId (int), SkillId (int))
@@ -10,4 +11,4 @@
 
 --Part 3
 
---SELECT skill.name, skill.description from techjobs.jobskills WHERE JobId IS NOT NULL ORDER BY ASC;
+--SELECT * FROM Skills LEFT JOIN JobSkills ON Skills.Id = JobSkills.SkillId WHERE JobSkills.JobId IS NOT NULL ORDER BY name ASC;
